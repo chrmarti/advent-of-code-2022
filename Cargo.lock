@@ -7,6 +7,7 @@ name = "advent2022"
 version = "0.1.0"
 dependencies = [
  "evalexpr",
+ "json",
  "num-bigint",
  "regex",
 ]
@@ -31,6 +32,12 @@ name = "evalexpr"
 version = "8.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aacfb566035f8cd02f6ec9247c242f3f9904a0b288ea383abcf4e95df6436a34"
+
+[[package]]
+name = "json"
+version = "0.12.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "078e285eafdfb6c4b434e0d31e8cfcb5115b651496faca5749b88fafd4f23bfd"
 
 [[package]]
 name = "memchr"
